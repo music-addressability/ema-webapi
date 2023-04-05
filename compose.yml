@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  romabeta:
+    image: raffazizzi/ema-webapi
+    container_name: ema-webapi
+    ports:
+      - "8081:8081"
+    restart: unless-stopped
