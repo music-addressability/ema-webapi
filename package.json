@@ -1,0 +1,29 @@
+{
+  "name": "ema-webapi",
+  "version": "0.1.0",
+  "description": "RESTful API for EMA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "Raff Viglianti",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@emajs/mei": "^1.0.1",
+    "express": "^4.18.2",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
